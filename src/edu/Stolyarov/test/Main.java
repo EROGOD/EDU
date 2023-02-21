@@ -1,5 +1,6 @@
 package edu.Stolyarov.test;
 
+import edu.Stolyarov.test.javarush.task0142;
 import edu.Stolyarov.test.jobs.Doctor;
 import edu.Stolyarov.test.jobs.Lawer;
 
@@ -50,5 +51,8 @@ public class Main {
 
         System.out.println("Total salary 2 = " + totalSalary2);
 
+        task0142 amigo = new task0142();
+
+        System.out.println(amigo.amigo());
     }
 }
